@@ -55,9 +55,13 @@ dependencies {
     implementation(libs.androidx.ui.tooling.preview)
     implementation(libs.androidx.material3)
     testImplementation(libs.junit)
+    //todo: update to libs file
     testImplementation("org.mockito:mockito-core:5.5.0")
     testImplementation("org.mockito.kotlin:mockito-kotlin:5.1.0")
     testImplementation( "org.jetbrains.kotlinx:kotlinx-coroutines-test:1.6.4")
+    implementation( "androidx.compose.material:material:1.5.0")
+    implementation( "com.google.accompanist:accompanist-pager:0.30.0")
+
     androidTestImplementation(libs.androidx.junit)
     androidTestImplementation(libs.androidx.espresso.core)
     androidTestImplementation(platform(libs.androidx.compose.bom))
