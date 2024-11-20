@@ -31,8 +31,8 @@ import androidx.compose.ui.res.painterResource
 import androidx.compose.ui.text.style.TextAlign
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
-import com.example.stox.data.NetworkUtils.Resource
 import com.example.stox.data.model.Holding
+import com.example.stox.data.network_utils.Resource
 import com.example.stox.ui.theme.SelectedTab
 import com.example.stox.ui.theme.TabBackground
 import com.example.stox.ui.theme.Teal

@@ -2,8 +2,8 @@ package com.example.stox.ui.view_model
 
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope
-import com.example.stox.data.NetworkUtils.Resource
 import com.example.stox.data.model.Holding
+import com.example.stox.data.network_utils.Resource
 import com.example.stox.data.repo.UserRepository
 import dagger.hilt.android.lifecycle.HiltViewModel
 import kotlinx.coroutines.flow.MutableStateFlow

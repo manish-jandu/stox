@@ -1,4 +1,4 @@
-package com.example.stox.data.NetworkUtils
+package com.example.stox.data.network_utils
 
 sealed class Resource<T> {
     data class Success<T>(val data: T) : Resource<T>()

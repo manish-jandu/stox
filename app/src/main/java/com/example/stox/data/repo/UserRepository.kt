@@ -1,9 +1,8 @@
 package com.example.stox.data.repo
 
-import com.example.stox.data.NetworkUtils.Resource
 import com.example.stox.data.api.ApiService
 import com.example.stox.data.model.Holding
-import com.example.stox.data.model.HoldingData
+import com.example.stox.data.network_utils.Resource
 import retrofit2.HttpException
 import java.io.IOException
 import javax.inject.Inject

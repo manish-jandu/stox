@@ -1,15 +1,15 @@
 package com.example.stox
 
-import com.example.stox.data.NetworkUtils.Resource
 import com.example.stox.data.api.ApiService
 import com.example.stox.data.model.Holding
 import com.example.stox.data.model.HoldingData
 import com.example.stox.data.model.UserHoldingData
+import com.example.stox.data.network_utils.Resource
 import com.example.stox.data.repo.UserRepository
 import kotlinx.coroutines.runBlocking
+import org.junit.Assert.assertEquals
+import org.junit.Assert.assertTrue
 import org.junit.Test
-
-import org.junit.Assert.*
 import org.mockito.Mockito.mock
 import org.mockito.Mockito.`when`
 
